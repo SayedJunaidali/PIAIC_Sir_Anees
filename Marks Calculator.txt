@@ -1,0 +1,28 @@
+Code:
+print("********************Marksheet********************")
+Sub1 = int(input("Enter marks of first Subject out of 100 :"))
+Sub2 = int(input("Enter marks of second Subject out of 100 :"))
+Sub3 = int(input("Enter marks of third Subject out of 100 :"))
+Sub4 = int(input("Enter marks of fourth Subject out of 100 :"))
+Sub5 = int(input("Enter marks of fifth Subject out of 100 :"))
+Percentage = ((Sub1+Sub2+Sub3+Sub4+Sub5)/500)*100
+if(Percentage>=90):
+    print("Grade = A1")
+elif(Percentage>=80):
+    print("Grade = A")
+elif(Percentage>=70):
+    print("Grade = B")
+elif(Percentage>=60):
+    print("Grade = C")
+elif(Percentage>=50):
+    print("Grade = D")
+else:
+    print("Grade = F")
+OUTPUT:
+********************Marksheet********************
+Enter marks of first Subject out of 100 :97
+Enter marks of second Subject out of 100 :75
+Enter marks of third Subject out of 100 :56
+Enter marks of fourth Subject out of 100 :65
+Enter marks of fifth Subject out of 100 :89
+Grade = B
